@@ -71,5 +71,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/tulip/tulip-vendor.mk)
